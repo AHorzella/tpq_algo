@@ -16,12 +16,10 @@ Optimizer_Review.jpynb
 algo_config.cfg
 
 (3) Two classes for data handling and model building:
-data_environment.py
-hypermodel.py
+data_environment.py, hypermodel.py
 
 (4) Two datafiles with minutely EUR-USD price data as fixed input for the calculation:
-oanda_EUR_USD_2020_01_01_2021_01_01_M1_M.csv
-oanda_EUR_USD_2022_01_01_2022_10_01_M1_M.csv
+oanda_EUR_USD_2020_01_01_2021_01_01_M1_M.csv, oanda_EUR_USD_2022_01_01_2022_10_01_M1_M.csv
 
 For execution, several python modules are required. Beside the standard ones which are already installed on Google Colab, Keras-Tuner will additionally be installed by the main Jupyter notebook during the execution process:
 %pip install keras_tuner
