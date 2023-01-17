@@ -2,6 +2,7 @@
 Final project for TPQ Algorithmic Trading class
 
 Hyper-Parameter optimization of Neural-Network-Models in algorithmic trading environments: a Python-based approach
+
 Review-Version, January 2023, Dr. Andreas Horzella
 
 
@@ -26,7 +27,6 @@ For execution, several python modules are required. Beside the standard ones whi
 
 Furthermore, the source code will be copied from git repository to Google Colab:
 !git clone https://github.com/AHorzella/tpq_algo.git
-sys.path.append("tpq_algo")
 
 *** PROJECT ABSTRACT ***
 
