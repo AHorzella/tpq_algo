@@ -6,7 +6,7 @@ Hyper-Parameter optimization of Neural-Network-Models in algorithmic trading env
 Review-Version, January 2023, Dr. Andreas Horzella
 
 
-*** TECHNICAL REQUIREMENTS ***
+*** TECHNICAL STRUCTURE ***
 
 The project consists of following files:
 
@@ -21,6 +21,10 @@ data_environment.py, hypermodel.py
 
 (4) Two datafiles with minutely EUR-USD price data as fixed input for the calculation:
 oanda_EUR_USD_2020_01_01_2021_01_01_M1_M.csv, oanda_EUR_USD_2022_01_01_2022_10_01_M1_M.csv
+
+*** EXECUTION VIA GOOGLE COLAB ***
+
+Execute the process by accessing the Jupyter notebook "Optimizer_Review.jpynb" from Google Colab.
 
 For execution, several python modules are required. Beside the standard ones which are already installed on Google Colab, Keras-Tuner will additionally be installed by the main Jupyter notebook during the execution process:
 %pip install keras_tuner
