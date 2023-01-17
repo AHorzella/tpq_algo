@@ -1,12 +1,12 @@
 # tpq_algo
-Final project for TPQ Algorithmic Trading class
+***Final project for TPQ Algorithmic Trading class
 
 Hyper-Parameter optimization of Neural-Network-Models in algorithmic trading environments: a Python-based approach
 
 Review-Version, January 2023, Dr. Andreas Horzella
 
 
-*** TECHNICAL REQUIREMENTS ***
+***TECHNICAL REQUIREMENTS
 
 The project consists of following files:
 
@@ -28,7 +28,7 @@ For execution, several python modules are required. Beside the standard ones whi
 Furthermore, the source code will be copied from git repository to Google Colab:
 !git clone https://github.com/AHorzella/tpq_algo.git
 
-*** PROJECT ABSTRACT ***
+***PROJECT ABSTRACT
 
 The increasing impact of artificial intelligence (AI) applications on more and more aspects of life is obvious. Consequently, the financial sector has also been heavily involved in corresponding developments in recent years. In terms of trading financial instruments, neural networks and reinforcement learning (RL) agents are promising approaches for building an alpha-generating algorithmic trading system: experience and gut feeling of a human trader are replaced by a complex network of calculated input-output relations. These are multi-dimensional, multi-layered and generated from existing and emerging market data using Machine Learning (ML) algorithms. The result are models that can provide statistically based forecasts of future market developments.
 
